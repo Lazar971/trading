@@ -6,13 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.sharp-border{
+  border-radius: 0 !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.padded{
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
